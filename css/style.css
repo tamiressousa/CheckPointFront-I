@@ -20,7 +20,6 @@ h1 {
 
 }
 
-
 .main-header .logo {
 
     width: 340px;
@@ -30,7 +29,7 @@ h1 {
 
 .main-header {
 
-    background-color: #66CAF2;
+    background-color: #594814;
     display: flex;
     padding: 12px 80px 12px 122px;
     justify-content: space-between;
@@ -44,9 +43,7 @@ h1 {
     gap: 100px;
     list-style: none;
     
-
 }
-
 
 .main-header ul a {
 
@@ -55,3 +52,8 @@ h1 {
 
 }
  
+.banner img {
+
+    display: flex;
+
+}
