@@ -42,7 +42,7 @@ footer {
     background-color: #0F468C;
 }
 
-.titulo-curiosidades {
+.main-title {
     margin: 37px 122px;
     width: 340px;
     height: 30px;
@@ -86,4 +86,15 @@ footer {
 .link a {
     color: black;
     text-decoration: none;
+}
+
+.video {
+    width: 1406px;
+    height: 850px;
+    border-radius: 31px;
+  }
+
+.box-video {
+    display: flex;
+    justify-content: center;
 }
