@@ -1,59 +1,89 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
-body {
-
-    background-color: black;
-
-}
-
-h1 {
-    
+.title {
     text-align: center;
-    font-size: 20px;
-
 }
 
 .main-header .logo {
-
     width: 340px;
     padding: 10px 100px;
-
 }
 
 .main-header {
-
-    background-color: #594814;
+    background-color: #0F468C;
     display: flex;
     padding: 12px 80px 12px 122px;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .main-header ul {
-
     display: flex;
     gap: 100px;
     list-style: none;
-    
 }
 
 .main-header ul a {
-
     color: black;
     text-decoration: none;
-
 }
  
-.banner img {
+.banner {
+    width: 100%;
+    height: 70%;
+}
 
+footer {
+    background-color: #0F468C;
+}
+
+.titulo-curiosidades {
+    margin: 37px 122px;
+    width: 340px;
+    height: 30px;
+}
+
+.main-section {
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 36px;
+    margin: 37px 123px 30px 123px;
+    text-align: justify;
+}
 
+.card {
+    border-radius: 31px;
+    padding: 20px;
+    background-color: #0F468C;
+    width: 400px;
+    height: 850px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 20px;
+}
+
+.card img {
+    border-radius: 31px;
+}
+
+.link {
+    display: flex;
+    align-content: flex-end;
+    background-color: #F2EEEB;
+    border-radius: 31px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
 }
