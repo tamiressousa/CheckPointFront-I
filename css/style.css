@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.title-principal {
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 40px;
+}
+
 
 .title {
     text-align: center;
@@ -15,7 +24,7 @@
 }
 
 .main-header {
-    background-color: #0F468C;
+    background-color:#D9D0C7;
     display: flex;
     padding: 12px 80px 12px 122px;
     justify-content: space-between;
@@ -29,6 +38,7 @@
 }
 
 .main-header ul a {
+    font-size: 25px;
     color: black;
     text-decoration: none;
 }
@@ -39,7 +49,7 @@
 }
 
 footer {
-    background-color: #0F468C;
+    background-color: #D9D0C7;
 }
 
 .main-title {
@@ -53,14 +63,17 @@ footer {
     align-content: center;
     justify-content: space-between;
     gap: 36px;
-    margin: 37px 123px 30px 123px;
+    margin: 37px 123px 140px 123px;
     text-align: justify;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 31px;
     padding: 20px;
-    background-color: #0F468C;
+    background-color: #D9D0C7;
     width: 400px;
     height: 850px;
 }
@@ -78,23 +91,28 @@ footer {
 
 .link {
     display: flex;
-    align-content: flex-end;
     background-color: #F2EEEB;
     border-radius: 31px;
 }
 
 .link a {
+    text-align: center;
+    width: 100%;
+    height: 100%;
     color: black;
     text-decoration: none;
 }
 
 .video {
-    width: 1406px;
-    height: 850px;
+    width: 100%;
+    height: 100%;
     border-radius: 31px;
+
   }
 
 .box-video {
+    height: 850px;
+    margin: 37px 123px 50px 123px;
     display: flex;
     justify-content: center;
 }
