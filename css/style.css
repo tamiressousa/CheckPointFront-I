@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url("../img/banner-escadaria-rio.png");
+}
+
 .title-principal {
     text-align: center;
     font-family: 'Ms Madi', cursive;
@@ -24,6 +28,8 @@
 }
 
 .main-header {
+    width: 100%;
+    position: fixed;
     background-color:#D9D0C7;
     display: flex;
     padding: 12px 80px 12px 122px;
@@ -115,4 +121,15 @@ footer {
     margin: 37px 123px 50px 123px;
     display: flex;
     justify-content: center;
+}
+
+
+@media(max-width:1400px){
+    .main-section {
+        flex-wrap: wrap;
+    }
+
+    .main-header {
+        flex-direction: column;
+    }
 }
