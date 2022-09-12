@@ -123,6 +123,19 @@ footer {
     justify-content: center;
 }
 
+.logos-footer {
+  display: flex;
+  justify-content:center;  /*para que haja espaçamento entre os itens logo e menu*/
+  gap: 200px;
+  border-radius: 600px;
+  }
+
+.logos-footer img {
+  border-radius: 600px;
+  margin: 20px 10px 10px 30px;
+  width: 200px;
+}
+
 
 @media(max-width:1400px){
     .main-section {
@@ -133,3 +146,4 @@ footer {
         flex-direction: column;
     }
 }
+
