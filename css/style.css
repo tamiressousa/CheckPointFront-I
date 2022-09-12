@@ -18,10 +18,6 @@ body {
 }
 
 
-.title {
-    text-align: center;
-}
-
 .main-header .logo {
     width: 340px;
     padding: 10px 100px;
@@ -109,15 +105,14 @@ footer {
 }
 
 .video {
-    width: 100%;
-    height: 100%;
-    border-radius: 31px;
+  width: 80%;
+  height: 80%;
+  border-radius: 31px;
 
   }
 
 .box-video {
     height: 850px;
-    margin: 37px 123px 50px 123px;
     display: flex;
     justify-content: center;
 }
