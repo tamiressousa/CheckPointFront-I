@@ -29,7 +29,6 @@ body {
 
 .main-header {
     width: 100%;
-    position: fixed;
     background-color:#D9D0C7;
     display: flex;
     padding: 12px 80px 12px 122px;
