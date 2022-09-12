@@ -33,9 +33,10 @@ body {
 }
 
 .main-header ul {
-    display: flex;
+    display: flexbox;
     gap: 100px;
     list-style: none;
+  
 }
 
 .main-header ul a {
