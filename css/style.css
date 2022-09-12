@@ -139,11 +139,22 @@ footer {
 
 @media(max-width:1400px){
     .main-section {
-        flex-wrap: wrap;
+      flex-direction: column;
+        align-items: center;
+        gap: 12px;
     }
 
     .main-header {
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
+    .logos-footer {
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+
 }
 
