@@ -35,8 +35,9 @@ body {
 
 .main-header ul {
     display: flex;
-    gap: 100px;
+    gap: 10px;
     list-style: none;
+    justify-content: center;
   
 }
 
@@ -134,7 +135,7 @@ footer {
   border-radius: 600px;
   margin: 20px 10px 10px 30px;
   width: 150px;
-  transition: transform 3s;
+  transition: transform 0.5s;
 }
 
 .logos-footer img:hover {
@@ -161,6 +162,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        
     }
 
     .logos-footer {
